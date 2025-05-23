@@ -14,13 +14,13 @@ def check_lucky_day(year, month, day):
     is_islamic_lucky = (i_day, i_month) in islamic_lucky_days
 
     if is_jewish_lucky and is_islamic_lucky:
-        return "JI"
+        return "L: JI"
     elif is_jewish_lucky:
-        return "J"
+        return "L: J"
     elif is_islamic_lucky:
-        return "I"
+        return "L: I"
     else:
-        return "-"
+        return "L: -"
 
 today = datetime.date.today()
 result = check_lucky_day(today.year, today.month, today.day)
