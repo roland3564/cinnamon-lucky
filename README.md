@@ -11,4 +11,3 @@ Displays if the current day is a Jewish/Islam lucky one on cinnamon's panel in t
 J for Jewish
 I for Islamic
 JI for both
-- for none
