@@ -1,0 +1,9 @@
+{
+  "uuid": "lucky-day@n1",
+  "name": "Lucky Day Checker",
+  "description": "Checks if today is a Jewish or Islamic lucky day.",
+  "version": 1,
+  "max-instances": "1",
+  "icon": "emblem-favorite"
+}
+
